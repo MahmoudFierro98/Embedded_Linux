@@ -40,6 +40,7 @@ while(Start <= End):
 	print(Center)
 	if   (Num == Input_List[Center]):
 		Flag = 1
+		break
 	elif (Num > Input_List[Center]):
 		Start = Center + 1
 	elif (Num < Input_List[Center]):
