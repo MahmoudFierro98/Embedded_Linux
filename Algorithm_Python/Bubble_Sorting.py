@@ -20,7 +20,7 @@ print("\nYour List:",Input_List)
 
 # Bubble Sorting
 for i in range(List_Length-1):
-	for j in range(List_Length-1):
+	for j in range(List_Length-1-i):
 		if (Input_List[j] > Input_List[j+1]):
 			# Swap
 			Input_List[j],Input_List[j+1] = Input_List[j+1],Input_List[j]
