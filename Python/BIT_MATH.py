@@ -1,6 +1,6 @@
 #################################
 # Author: Mahmoud Mohamed Kamal	#
-# Date  : 20 NOV 2020		    #
+# Date  : 20 NOV 2020		#
 #################################
 
 def SET_BIT(VAR,BITNO):
