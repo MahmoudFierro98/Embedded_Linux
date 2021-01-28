@@ -6,12 +6,14 @@
 #################################
 
 ''' Import tkinter module '''
+''' For Python 3.x '''
 try:
 	from tkinter import *
 	import tkinter.messagebox as msgbox
+''' For Python 2.7 '''
 except:
 	from Tkinter import *
-	import Tkinter.messagebox as msgbox
+	import Tkinter.tkMessageBox as msgbox
 
 ''' IDs List '''
 IDs  = ('215321701332',
