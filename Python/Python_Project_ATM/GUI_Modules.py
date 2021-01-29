@@ -1,16 +1,16 @@
 #################################
 #              ATM              #
 # Author: Mahmoud Mohamed Kamal	#
-# Date  : 23 JAN 2021		#
+# Date  : 23 JAN 2021           #
 # File  : GUI_Module.py         #
 #################################
 
 ''' Import tkinter module '''
-''' For Python 3.x '''
+	''' For Python 3.x '''
 try:
 	from tkinter import *
 	import tkinter.messagebox as msgbox
-''' For Python 2.7 '''
+	''' For Python 2.7 '''
 except:
 	from Tkinter import *
 	import Tkinter.tkMessageBox as msgbox
