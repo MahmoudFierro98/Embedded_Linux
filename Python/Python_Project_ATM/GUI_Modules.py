@@ -39,10 +39,6 @@ Data = {IDs[0]:{'Name':'Ahmed Abdelrazek Mohamed','Password':'1783','Balance':'3
 Counter = 0
 Service_Var = 0
 
-''' Hide Widget Function '''
-def hide_me(event):
-    event.widget.pack_forget()
-
 ''' Create Main Window '''
 def Create_MainWindow():
 	global MainWindow
