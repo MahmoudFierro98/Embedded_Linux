@@ -6,12 +6,12 @@
 #################################
 
 ''' Import tkinter module '''
-	''' For Python 3.x '''
 try:
+	''' For Python 3.x '''
 	from tkinter import *
 	import tkinter.messagebox as msgbox
-	''' For Python 2.7 '''
 except:
+	''' For Python 2.7 '''
 	from Tkinter import *
 	import Tkinter.tkMessageBox as msgbox
 
