@@ -391,7 +391,15 @@ def OK_Fn():
 			if (int(Data[ID]['Balance']) >= int(Amount)):
 				Balance = int(Data[ID]['Balance']) - int(Amount)
 				Data[ID]['Balance'] = str(Balance)
-				msgbox.showinfo("Done!", Amount+" LE was withdrawn to charge "+Phone)
+				Var = Service_Var.get()
+				if Var == 0:
+					msgbox.showinfo("Done!", Amount+" LE was withdrawn to charge 012"+Phone)
+				elif Var == 1:                                                            
+					msgbox.showinfo("Done!", Amount+" LE was withdrawn to charge 011"+Phone)
+				elif Var == 2:                                                            
+					msgbox.showinfo("Done!", Amount+" LE was withdrawn to charge 010"+Phone)
+				else:                                                                             
+					msgbox.showinfo("Done!", Amount+" LE was withdrawn to charge 015"+Phone)
 			else:
 				msgbox.showerror('Error!',"Your Balance is less than the amount you want to charge")
 			Close_ChargeWindow_Fn()
