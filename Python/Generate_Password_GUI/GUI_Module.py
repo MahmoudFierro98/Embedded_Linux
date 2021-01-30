@@ -13,7 +13,7 @@ try:
 except:
 	''' For Python 2.7 '''
 	from Tkinter import *
-	import Tkinter.tkMessageBox as msgbox
+	import tkMessageBox as msgbox
 
 ''' Import others modules '''
 import random
