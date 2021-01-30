@@ -1,5 +1,5 @@
 #################################
-#              ATM              #
+#       Generate Password       #
 # Author: Mahmoud Mohamed Kamal	#
 # Date  : 29 JAN 2021		    #
 # File  : GUI_Module.py         #
